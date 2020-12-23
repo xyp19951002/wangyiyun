@@ -6,8 +6,8 @@ const createError = require('http-errors');
 const cors = require('cors');
 
 const app = express();
-const usersRouter = require('./router/users');
-// const productRouter = require('./router/product');
+// const usersRouter = require('./router/users');
+const musicRouter = require('./src/router/music');
 
 
 let conf = {
@@ -27,7 +27,8 @@ app.use(express.urlencoded({ extended: true })); // post表单数据解析成jso
 app.use(cookieParser()); // 读取和设置cookie的中间件
 
 
-app.use('/users', usersRouter);
+// app.use('/users', usersRouter);
+app.use('/music', musicRouter);
 // app.use('/product', productRouter);
 
 

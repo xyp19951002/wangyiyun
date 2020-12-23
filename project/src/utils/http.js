@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://10.31.162.85:4000",
+  baseURL: "http://10.31.162.85:4000" || "http://10.31.162.16:4000",
   // 请求超过10秒，则报错
   timeout: 10000
 });

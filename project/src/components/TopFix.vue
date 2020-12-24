@@ -24,12 +24,18 @@ export default {
         "首页",
         "社区"
       ],
+      msgE:[
+        "mine",
+        "index",
+        "commu"
+      ],
       number: 1
     }
   },
   methods: {
     change(i) {
       this.number = i;
+      this.$router.push(`/${this.msgE[i]}`)
     }
   }
 };

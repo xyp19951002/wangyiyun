@@ -15,5 +15,3 @@ app.use(Button).use(Swipe).use(SwipeItem).use();
 app.use(store);
 app.use(router);
 app.mount("#app");
-
-  

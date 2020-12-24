@@ -12,7 +12,7 @@
     <ul class="classify">
       <li>
         <img src="" alt="" />
-        <span></span>
+        <span>文字样式</span>
       </li>
     </ul>
     <!-- 推荐歌单 -->
@@ -24,7 +24,7 @@
       <ul>
         <li>
           <img src="" alt="" />
-          <p></p>
+          <span>文字样式中共十七八个子随便编一遍样让他良好还要移除隐藏点点点</span>
         </li>
       </ul>
     </div>
@@ -37,7 +37,7 @@
       <ul>
         <li>
           <img src="" alt="" />
-          <p></p>
+          <span>文字样式中共十七八个子随便编一遍样让他良好还要移除隐藏点点点</span>
         </li>
       </ul>
     </div>
@@ -58,6 +58,7 @@ export default {
   position: relative;
   top: 44px;
   bottom: 49px;
+  padding-bottom: 50px;
   .my-swipe .van-swipe-item {
     color: #fff;
     font-size: 20px;
@@ -82,8 +83,8 @@ export default {
         height: 50px;
       }
       span{
-        width: 47px;
-        height: 11.5px;
+        width: 50px;
+        line-height: 12px;
         font-size: 12px;
         margin-top: 2px;
       }
@@ -118,13 +119,16 @@ export default {
             height: 100px;
             border-radius: 10px;
           }
-          p {
+          span {
             overflow:hidden;
             text-overflow: ellipsis;
             display: -webkit-box;
             -webkit-line-clamp:2; 
             -webkit-box-orient:vertical; 
             margin-top: 9px;
+            width: 100px;
+            height: 30px;
+            font-size: 12px;
           }
         }
       }
@@ -158,13 +162,16 @@ export default {
             height: 120px;
             border-radius: 10px;
           }
-          p {
+          span {
             overflow:hidden;
             text-overflow: ellipsis;
             display: -webkit-box;
             -webkit-line-clamp:2; 
             -webkit-box-orient:vertical; 
             margin-top: 9px;
+            width: 92px;
+            height: 34px;
+            font-size: 12px;
           }
         }
       }

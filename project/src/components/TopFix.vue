@@ -1,7 +1,7 @@
 <template>
   <div class="top">
     <span class="list">
-      <img src="../assets/img/global/侧栏.png" alt="" />
+      <img src="../assets/img/global/侧栏.png" alt="" @click="leftbar" />
     </span>
     <span class="info"
       v-for="(item, index) in msg"

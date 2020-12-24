@@ -3,7 +3,9 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
-// import "amfe-flexible";
+import "./assets/css/reset.scss";
+import "nprogress/nprogress.css";
+import "amfe-flexible";
 
 import { Button,Swipe, SwipeItem } from "vant";
 import "vant/lib/index.css";
